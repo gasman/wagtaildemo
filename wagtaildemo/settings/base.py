@@ -117,6 +117,8 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
+    'demo.basic_auth.BasicAuthMiddleware',
+
     'wagtail.wagtailcore.middleware.SiteMiddleware',
 
     'wagtail.wagtailredirects.middleware.RedirectMiddleware',
